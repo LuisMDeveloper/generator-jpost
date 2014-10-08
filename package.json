@@ -1,0 +1,37 @@
+{
+  "name": "generator-jpost",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "LuisMDeveloper/generator-jpost",
+  "author": {
+    "name": "Luis Manuel Ramirez Vargas ",
+    "email": "luis.manuel.ramirez.91@gmail.com",
+    "url": "https://github.com/LuisMDeveloper"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.0",
+    "underscore.string": "^2.3.3",
+    "yeoman-generator": "^0.17.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
